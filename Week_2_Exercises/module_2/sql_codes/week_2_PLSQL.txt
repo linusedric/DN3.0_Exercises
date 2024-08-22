@@ -1,0 +1,32 @@
+unit 2 - exercise 3
+ 
+	UPDATE suppliers SET City = 'Portland' WHERE 	CompanyName = 'Bigfoot Breweries';
+
+
+unit 2 - exercise 5
+
+Write a SQL query to modify the value of the column 'Designation' as 'ASST.HOD' in the table 'Staff_Details' where the column 'Designation' has 'LECTURER' 
+
+	update Staff_Details set Designation = 'ASST.HOD' 	where Designation = 'LECTURER';
+
+
+unit 2 - exercise 6
+
+Write a SQL query to modify the column "ShipCountry" value as 'UnitedStates' in the Orders table where the "ShipRegion" column contains 'WA'
+
+	update Orders set ShipCountry = 'UnitedStates' 	where ShipRegion = 'WA'; 
+ 
+
+unit 2 - exercise 7
+
+Write a SQL query to modify the column 'ProductName' value as 'Ketchup' in the 'Products' table where the column 'CategoryID' value has 2
+
+	update Products set ProductName = 'Ketchup' where 	CategoryID = 2;
+
+
+unit 2 - exercise 8
+
+Write a SQL query to modify the " DESCRIPTION" column as 'Sweet and savory sauces,seasonings' where the column "CategoryName" value has 'Condiments' from the "Categories" table
+
+	
+    update Categories set Description = 'Sweet and savory     sauces,seasonings' where CategoryName = 'Condiments';
